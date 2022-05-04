@@ -1,0 +1,19 @@
+{
+    "name": "evanfranzman/package",
+    "description": "first package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Evanfranzman\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evan Franzman",
+            "email": "franzmel@miamioh.edu"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
