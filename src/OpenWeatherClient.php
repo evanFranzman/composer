@@ -4,13 +4,20 @@ use evanfranzman\package;
 
 class OpenWeatherClient
 {
+    /**
+     * fields per the assignment class diagram
+     */
     private $apiKey;
-
+    /**
+     * Constructor to initialize the api key
+     */
     public function __construct($apiKey)
     {
         $this->apiKey = $apiKey;
     }
-
+    /**
+     * Get the weather for a given location via guzzle
+     */
     public function getCurrentWeather($location) {
         $client = new GuzzleHttp\Client();
         $response = $client->request('GET', 'http://api.openweathermap.org/data/2.5/weather', [
