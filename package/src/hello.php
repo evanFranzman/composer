@@ -1,8 +1,12 @@
 <?php
 
-class Hello {
-    public function sayHello() {
-        echo "Hello World!";
+use evanfranzman\package;
+
+class Hello
+{
+    public function say($name)
+    {
+        return "Hello, $name!";
     }
 }
 ?>
