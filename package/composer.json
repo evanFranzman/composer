@@ -1,6 +1,6 @@
 {
     "name": "evanfranzman/package",
-    "description": "first package",
+    "description": "first",
     "type": "project",
     "license": "MIT",
     "autoload": {
